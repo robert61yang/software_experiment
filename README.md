@@ -1,0 +1,3 @@
+# software_experiment
+軟體設計實驗之各project
+其中final_project為匯集學期所學，最終與組員完成之成品
