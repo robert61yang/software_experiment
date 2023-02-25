@@ -1,0 +1,21 @@
+.post-list {
+}
+
+.post-list .empty {
+    height: 8rem;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: transparent;
+}
+
+.post-list .empty-text {
+    text-align: center;
+    color: #ebebebee;
+}
+
+.usercon{
+    width: 100%;
+}
+
+#userrow{
+    padding-top: 0.7rem;
+}

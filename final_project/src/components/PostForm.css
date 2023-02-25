@@ -1,0 +1,119 @@
+.post-form {
+}
+
+.post-form .alert {
+    padding: 1rem 2rem;
+    background-color: white;
+    border-color: #838383c9;
+}
+
+.post-form .mood {
+    margin: 0 0 0.5rem 0;
+}
+
+.post-form .mood-toggle {
+    min-width: 8.5rem;
+}
+
+.post-form .mood i {
+    text-align: center;
+    width: 1rem;
+}
+
+
+.post-form .input {
+    width: 100%;
+    min-height: 10rem;
+    background-color: #dfdbdb9a;
+    border: 0rem;
+}
+
+@media (min-width: 576px) {
+    .post-form .mood {
+        margin: 0 0.5rem 0 0;
+    }
+
+    .post-form .input {
+        margin: 0 0.5rem 0 0;
+    }
+}
+.label{
+    color: rgb(90, 90, 90);
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing:2px;
+    margin-bottom: 0.7rem;
+    border-radius: 1rem;
+}
+
+#buttoncontainer{
+    margin-top: 0.8rem;
+    padding: 0rem;
+}
+
+.showimage{
+    width: 100%;
+    height: 100%;
+    object-fit:contain;
+    max-height: 25rem;
+}
+
+
+.Btn{
+    width: 3rem !important;
+    background-color: #4EC5C1 !important;
+    margin: 0 6px;
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    border: 0 !important;
+
+}
+
+.imagebtn{
+    width: 6rem !important;
+    background-color: #4EC5C1 !important;
+    margin: 0 6px;
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    border: 0 !important;
+}
+
+
+
+.Btnrow{
+    padding-right: 9px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(90, 90, 90);
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1rem;
+    font-weight: 450;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(90, 90, 90);
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1rem;
+    font-weight: 450;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(90, 90, 90);
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1rem;
+    font-weight: 450;
+  }
+
+  .namelabel{
+    color: rgb(90, 90, 90);
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0rem !important;
+    margin-top: 2px;
+  }

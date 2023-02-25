@@ -1,0 +1,22 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-labweathermoodauth-dev-03151-authRole",
+            "UnauthRoleArn": "arn:aws:iam::093630551951:role/amplify-labweathermoodauth-dev-03151-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::093630551951:role/amplify-labweathermoodauth-dev-03151-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "amplify-labweathermoodauth-dev-03151-deployment",
+            "UnauthRoleName": "amplify-labweathermoodauth-dev-03151-unauthRole",
+            "StackName": "amplify-labweathermoodauth-dev-03151",
+            "StackId": "arn:aws:cloudformation:us-east-1:093630551951:stack/amplify-labweathermoodauth-dev-03151/943f18f0-a037-11ea-802e-12b94cd95a93",
+            "AmplifyAppId": "d20bh3304vyfxv"
+        },
+        "categories": {
+            "auth": {
+                "labweathermoodauth02f76e27": {
+                    "googleClientId": "930042865446-42hrak50a129dlemlqnkr2bkihtobpm0.apps.googleusercontent.com"
+                }
+            }
+        }
+    }
+}

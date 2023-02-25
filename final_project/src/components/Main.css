@@ -1,0 +1,137 @@
+.main {
+    height: 100%;
+    margin: 0rem;
+    padding: 0rem;
+}
+.topbar {
+    background-color: #4EC5C1;
+    height: 2rem;
+    padding: 0rem !important;
+}
+.main .footer {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.7);
+    padding: 6rem 2rem 2rem 2rem;
+}
+
+.topbar .search {
+    position: absolute;
+    top:0.25rem;
+    right: 8rem;
+}
+.topbar .search input {
+    padding-right: 1.5rem;
+    height: 1.5rem;
+}
+
+.topbar .search i {
+    position: absolute;
+    top: 0.3rem;
+    right: 0.5rem;
+    border: 0.1rem;
+    margin: 0rem;
+    padding: 0rem;
+}
+#navbrand {
+    color: #EC576B;
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 900;
+    padding-bottom: 0rem;
+    padding-top: 0rem;
+    padding-left: 15%;
+}
+
+#navbar{
+    padding: 0px;
+}
+
+.topbar .search i:hover {
+    color: #5bc0de;
+}
+
+.navlink{
+    box-sizing: content-box !important;
+    background-color:white;
+    color:black;
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    border-radius: 1rem;
+    letter-spacing:2px;
+    padding:0.2rem 1.5rem!important;
+    margin: 0rem 1rem;
+}
+
+.navlink:focus{
+    background-color:#4EC5C1 !important;
+    color:white !important;
+    font-family: 'Microsoft JhengHei', sans-serif;
+}
+.navlink:focus-within{
+    background-color:#4EC5C1 !important;
+    color:white !important;
+    font-family: 'Microsoft JhengHei', sans-serif;
+}
+.navlink:active{
+    background-color:#4EC5C1 !important;
+    color:white !important;
+    font-family: 'Microsoft JhengHei', sans-serif;
+}
+
+.navlink:hover{
+    color:#919191;
+    font-family: 'Microsoft JhengHei', sans-serif;
+}
+
+@media (min-width: 576px) {
+    .topbar .search {
+        width: 10rem;
+    }
+}
+
+#collapse{
+    padding-left: 1rem ;
+    padding-right: 1rem;
+}
+
+.page{
+    width: 100%;
+}
+
+#topnav{
+    padding: 0rem;
+}
+
+.topset{
+    margin-left: 79% !important;
+}
+
+#logout{
+    height: 1.6rem;
+    padding: 0rem 0.2rem 0.15rem 0.15rem;
+    font-size: 0.75rem;
+    width: 2.5rem;
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-weight: 450;
+    color: #f0f0f0;
+    letter-spacing:1px;
+}
+
+#username{
+    height: 1.6rem;
+    padding: 0.05rem 0.2rem 0.2rem 0.2rem;
+    font-size: 1.0rem !important;
+    width: 4rem;
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 550;
+    letter-spacing:1px;
+    background-color: #4EC5C1
+}
+
+.fas{
+    padding-top: 0.26rem;
+    size: 1.9rem;
+    margin-right: 0.5rem;
+}

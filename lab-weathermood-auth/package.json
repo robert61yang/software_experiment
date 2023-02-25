@@ -1,0 +1,52 @@
+{
+  "name": "lab-react-weathermood",
+  "version": "1.0.0",
+  "description": "WeatherMood allows people to share moods under different weather conditions.",
+  "main": "src/index.jsx",
+  "scripts": {
+    "build": "webpack -p",
+    "watch": "webpack -w",
+    "start": "webpack-dev-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-amplify/ui-react": "^0.2.7",
+    "@babel/polyfill": "^7.8.7",
+    "@types/react-transition-group": "^4.2.4",
+    "aws-amplify": "^3.0.13",
+    "aws-amplify-react": "^4.1.10",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
+    "moment": "^2.25.3",
+    "popper.js": "^1.16.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-infinite-scroller": "^1.2.4",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.2.0",
+    "reactstrap": "^8.4.1",
+    "redux": "^4.0.5",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/preset-react": "^7.9.4",
+    "babel-loader": "^8.1.0",
+    "css-loader": "^3.5.3",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

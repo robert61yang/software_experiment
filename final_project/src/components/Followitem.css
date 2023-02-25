@@ -1,0 +1,237 @@
+.post-form {
+}
+
+.post-form .alert {
+    padding: 1rem 2rem;
+    background-color: white;
+    border-color: rgba(0, 0, 0, 0.125);
+}
+
+.post-form .mood {
+    margin: 0 0 0.5rem 0;
+}
+
+.post-form .mood-toggle {
+    min-width: 8.5rem;
+}
+
+.post-form .mood i {
+    text-align: center;
+    width: 1rem;
+}
+
+
+.post-form .input {
+    width: 100%;
+    min-height: 10rem;
+    background-color:rgba(197, 196, 196, 0.329);
+    border: 0rem;
+}
+
+@media (min-width: 576px) {
+    .post-form .mood {
+        margin: 0 0.5rem 0 0;
+    }
+
+    .post-form .input {
+        margin: 0 0.5rem 0 0;
+    }
+}
+.label{
+    color: rgb(90, 90, 90);
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1.25rem;
+    font-weight: 600;
+    letter-spacing:2px;
+    margin-bottom: 0.7rem;
+    border-radius: 1rem;
+}
+
+#buttoncontainer{
+    margin-top: 0.8rem;
+    padding: 0rem;
+}
+
+.Btn{
+    width: 3rem !important;
+    background-color: #4EC5C1 !important;
+    margin: 0 6px;
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    border: 0 !important;
+
+}
+
+.Btnrow{
+    padding-right: 9px;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(90, 90, 90);
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1rem;
+    font-weight: 450;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: rgb(90, 90, 90);
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1rem;
+    font-weight: 450;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: rgb(90, 90, 90);
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1rem;
+    font-weight: 450;
+  }
+
+#poster{
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1.2rem !important;
+    font-weight: 600 !important;
+    color: rgb(90, 90, 90);
+    padding-top: 0.2rem;
+    margin-left: 0.7rem;
+}
+
+#usericon{
+    margin-left: 15px;
+    padding-top: 2px;
+    size: 2rem;
+    color: rgb(90, 90, 90);
+}
+
+
+.text {
+    font-size: 1.2rem !important;
+    font-weight: 500 !important;
+    color: rgb(90, 90, 90);
+}
+.text-box{
+    min-height: 7rem;
+    padding-left: 15px;
+    margin-top:0.7rem;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-right: 0.5rem;
+    border-width: 0.5px !important;
+    border-color: rgba(0, 0, 0, 0.125);
+    border-style: solid;
+}
+.ts{
+    margin-top: 1rem !important;
+    text-align: right;
+    margin-bottom: 0.5rem;
+}
+.viewbtn{
+    max-height: 1.5rem;
+    margin-top: auto;
+    background-color: #4EC5C1 !important;
+    padding-top: 0rem !important;
+    padding-bottom: 0.45rem;
+    text-align: center;
+    border: #4EC5C1 !important;
+    margin-bottom: 0.5rem;
+}
+.fa-eye{
+    margin-bottom: 1.5rem;
+}
+.viewnum{
+    padding-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 0.5rem;
+    margin-bottom: 0.5rem;
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    color: #919191;
+}
+.opencomment{
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    margin-right: 20px;
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    color: #919191 !important;
+}
+.deletepost{
+    padding-top: 0rem !important;
+    padding-bottom: 0rem !important;
+    padding-left: 0.3rem !important;
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    color: #919191 !important;
+    margin-right: auto !important;
+}
+#deletebtn{
+    padding-left: 1.8rem;
+    padding-top: 0rem;
+    color: #919191 !important;
+}
+.commentnum{
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    color: #919191;
+}
+.alertcom {
+    padding: 0rem !important;
+    background-color: white !important;
+    border-style: none;
+}
+.commentblock{
+    max-height: 40px !important;
+    max-width: 32rem;
+    border-width: 0.05rem !important;
+    border: rgb(90, 90, 90);
+    border-radius: 1rem !important;
+    margin-left: 1.7rem !important;
+    background-color: #ebebeb!important;
+    margin-right: 1rem;
+}
+.commentbtn{
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+    max-height: 2rem;
+    margin-left: 0.3rem !important;
+    align-self: center;
+    padding-top: 0.2rem !important;
+}
+.commentrow{
+    margin-top: 1.5rem;
+}
+
+#listblock {
+    margin-top: 1rem;
+    margin-bottom: 0.6rem;
+    padding-left: 0.2rem;
+    padding-right: 0rem;
+    border: #ebebeb;
+    background-color: #ebebeb;
+    width: 40.5rem;
+    margin-left: 0.75rem;
+    border-radius: 0.8rem;
+}
+
+.star{
+    color: #FFC100;
+    border: #919191;
+    padding-top: 1.2rem !important;
+    margin-right: 1rem !important;
+}
+
+.commentnamelabel{
+    margin-top: 0.35rem;
+    color: rgb(90, 90, 90);
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0rem !important;
+}

@@ -1,0 +1,82 @@
+html {
+    height: 100%;
+    font-size: 16px;
+    line-height: 1.5;
+}
+body {
+    height: 100%;
+    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif;
+    background: #fff url("../images/bg.jpg") no-repeat fixed center bottom;
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.header, .footer {
+
+}
+
+.header h1 {
+    font-family: 'Bree Serif', serif;
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+    word-spacing: 0.8rem;
+    letter-spacing: 0.15rem;
+    text-shadow: 0.25rem 0.25rem rgb(0,0,0);
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+    background-color: rgba(255,255,255,0.8);
+    border:1rem solid white ;
+    margin: 0 auto;
+}
+
+.post {
+    margin-bottom: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.post:last-child {
+  
+}
+
+.post h2 {
+
+}
+
+.date {
+    margin: 1rem 0 ;   
+    text-transform: uppercase;
+    color: rgb(111, 186, 236);
+    letter-spacing: 0.2rem;
+    font-size: 0.8rem;
+    text-shadow: 0.05rem 0.05rem rgb(0,0,0);
+}
+
+
+
+blockquote{
+    padding-left: 1rem;
+    border-left: 0.25rem solid rgba(133, 128, 128, 0.863);
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.quote {
+    
+}
+
+.footer {
+    text-align: center;
+    color: white;
+    margin: 2rem auto;
+    letter-spacing: 0.1rem;
+    font-size: 0.7rem;
+    text-shadow: 0.05rem 0.05rem rgb(0,0,0);
+}

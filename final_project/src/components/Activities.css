@@ -1,0 +1,26 @@
+.today {
+    padding: 1rem;
+    background-color:rgba(197, 196, 196, 0.329);
+}
+
+.today .weather {
+    width: 100%;
+    max-width: 24rem;
+    margin: 0 auto;
+}
+
+.today .posts {
+    width: 100%;
+    max-width: 45rem;
+    margin: 0 auto;
+}
+
+.today .posts .loading {
+    position: fixed;
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    text-align: center;
+    z-index: 999;
+}

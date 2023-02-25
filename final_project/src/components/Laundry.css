@@ -1,0 +1,37 @@
+#laundries{
+    background-color:rgba(197, 196, 196, 0.329);
+    padding-top: 5rem;
+    min-height: 50rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    min-width: 100%;
+}
+.imgref{
+    text-align: center;
+    margin-top: 1rem;
+}
+#machines{
+    max-width: 90%;
+    margin: 0rem auto;
+}
+.wash{
+    height: 270px;
+    width: 270px;
+}
+.left-time{
+    width: 234px;
+    margin: 18px;
+    text-align: center;
+    color: rgb(90, 90, 90);
+    font-family: 'Microsoft JhengHei', sans-serif;
+    font-size: 1rem;
+    border-radius: 0.3rem;
+    font-weight: 350;
+    background-color: white;
+}
+.cover {
+    margin-top: 5rem;
+    max-height: 10rem; 
+    max-width: 15rem; 
+}
+
